@@ -1,0 +1,78 @@
+.self-help-resources {
+    padding: 20px;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .quotes-section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .quotes-section h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .quotes-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .quotes-section li {
+    margin-bottom: 10px;
+    font-style: italic;
+  }
+  
+  .resource-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .resource-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+  }
+  
+  .resource-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .resource-title {
+    font-size: 1.5em;
+    margin: 15px 0;
+  }
+  
+  .resource-description {
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .resource-link {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .resource-link:hover {
+    text-decoration: underline;
+  }
+  

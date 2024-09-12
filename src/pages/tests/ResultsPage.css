@@ -1,0 +1,532 @@
+/* .results-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #e4dede;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 50px auto;
+  }
+  
+  .result-score {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .score-value {
+    font-size: 36px;
+    font-weight: bold;
+    color: #d9534f;
+  }
+  
+  .analysis-text {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+ */
+
+
+
+
+   /* --------------------------- */
+
+
+.results-container {
+  padding: 40px;
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2);
+  border-radius: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  color: #2b2e4a; 
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  color: #2b2e4a;
+  margin-bottom: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.result-score {
+  font-size: 28px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #6a0572; 
+}
+
+.score-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+.analysis-text {
+  font-size: 20px;
+  margin: 20px 0;
+  line-height: 1.8;
+  color: #2b2e4a;
+}
+
+h2 {
+  font-size: 26px;
+  width: 80%;
+  color: #6a0572;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  border-bottom: 2px solid #ff6f61;
+  padding-bottom: 10px;
+}
+
+hr {
+  width: 80%;
+
+  height: 1px;
+  background-color: #ff6f61;
+  margin: 30px auto;
+  border-bottom: 2px solid #ff6f61; 
+}
+
+
+.section {
+  padding: 25px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  margin-bottom: 25px;
+  transition: transform 0.3s ease;
+}
+
+.section:hover {
+  transform: translateY(-10px);
+}
+
+
+@media (max-width: 768px) {
+  .results-container {
+    padding: 30px;
+  }
+  
+  h1 {
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  .result-score {
+    font-size: 24px;
+  }
+
+  .score-value {
+    font-size: 38px;
+  }
+}
+
+
+
+.recommended-actions-list {
+  list-style-type: disc;
+  margin: 20px 0;
+  padding-left: 20px; 
+  text-align: left; 
+}
+
+.recommended-actions-list li {
+  font-size: 18px;
+  color: #2b2e4a;
+  margin-bottom: 10px; 
+  line-height: 1.6; 
+}
+
+
+
+ /* -------- bwlow is test to show data of anserwered qsn on reuslt page --------- */
+/* General container styling */
+.results-container {
+  padding: 40px;
+  background: #f9fafb;
+  border-radius: 20px;
+  max-width: 700px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.result-score {
+  font-size: 24px;
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #5a67d8;
+  text-align: center;
+}
+
+.score-value {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ff6f61;
+}
+
+.analysis-text {
+  font-size: 18px;
+  margin: 20px 0;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* Card for each question and selected answer */
+.question-answer-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 12px;
+}
+
+.selected-answer {
+  display: inline-block;
+  padding: 10px 16px; /* Reduced padding for better alignment */
+  background-color: #3182ce;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 16px; /* Adjusted font size */
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+hr {
+  width: 80%;
+  height: 1px;
+  background-color: #e2e8f0;
+  margin: 30px auto;
+}
+
+/* Button styling */
+.toggle-answers-btn {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background-color: #3182ce;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.toggle-answers-btn:hover {
+  background-color: #2b6cb0;
+  transform: scale(1.05);
+}
+
+/* Hidden content styling */
+.hidden {
+  display: none;
+}
+
+/* Updated styling for "Selected Answers" title */
+.selected-answers-section h2 {
+  font-size: 24px; /* Increase font size */
+  font-weight: 700;
+  color: #2d3748; /* Title color */
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .results-container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .result-score {
+    font-size: 22px;
+  }
+
+  .score-value {
+    font-size: 38px;
+  }
+
+  .toggle-answers-btn {
+    font-size: 16px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+
+  .selected-answer {
+    margin-top:10px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+/*  ------ below is the part to css for , print buton section  */
+
+@media print {
+  /* Hide elements like buttons in the PDF */
+  .toggle-answers-btn {
+    display: none;
+  }
+
+  /* Adjust font sizes for better readability in the PDF */
+  body {
+    font-size: 14px;
+  }
+
+  /* Ensure content fits within the page margins */
+  .results-container {
+    padding: 20px;
+  }
+
+  /* Avoid page breaks within specific elements */
+  .question-answer-card {
+    page-break-inside: avoid;
+  }
+}
+
+
+
+
+
+/* -------------------------- */
+
+
+/* Card for each question and selected answer */
+.question-answer-card {
+  background: #f8f8f8;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Lighter shadow */
+  border: 1px solid #ddd; /* Border for definition */
+  page-break-inside: avoid; /* Avoid breaking between pages */
+}
+
+.question {
+  font-size: 18px;
+  font-weight: 600;
+  color: #34495e;
+  margin-bottom: 10px;
+}
+
+.selected-answer {
+  display: inline-block;
+  padding: 8px 12px; /* Smaller padding for tighter layout */
+  background-color: #27ae60; /* Green background */
+  color: #fff;
+  border-radius: 4px; /* Smaller radius */
+  font-size: 14px; /* Smaller font size */
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+/* Horizontal Rule */
+hr {
+  width: 90%; /* Slightly wider */
+  height: 1px;
+  background-color: #bdc3c7;
+  margin: 30px auto;
+}
+
+/* Button styling */
+.toggle-answers-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #2980b9; /* Blue button */
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+  margin : 10px 20px;
+}
+
+.toggle-answers-btn:hover {
+  background-color: #1a5988;
+  transform: scale(1.03);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .results-container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  .result-score {
+    font-size: 18px;
+  }
+
+  .score-value {
+    font-size: 32px;
+  }
+
+  .toggle-answers-btn {
+    font-size: 14px;
+  }
+
+  .question {
+    font-size: 16px;
+  }
+
+  .selected-answer {
+    font-size: 12px;
+  }
+}
+
+/* Print styles */
+@media print {
+  /* Hide elements like buttons in the PDF */
+  .toggle-answers-btn {
+    display: none;
+  }
+
+  /* Ensure content fits within the page margins */
+  .results-container {
+    padding: 20px;
+  }
+
+  /* Adjust font sizes for better readability in the PDF */
+  body {
+    font-size: 14px;
+  }
+
+  /* Avoid page breaks within specific elements */
+  .question-answer-card {
+    page-break-inside: avoid;
+  }
+
+  /* Layout adjustments for print */
+  h1, h2, .result-score, .analysis-text, .recommended-actions-list, .question-answer-card {
+    page-break-after: avoid; /* Avoid breaks after key sections */
+  }
+
+  .question-answer-card {
+    margin-bottom: 10px; /* Reduced margin for compact layout */
+  }
+}
+
+
+/* ---------- */
+
+/* Print-Specific CSS */
+@media print {
+  /* General Font and Layout Adjustments */
+  body {
+    font-size: 14px; /* Standard font size for readability */
+    line-height: 1.6; /* Improved line height for readability */
+    color: #333; /* Standard text color */
+  }
+
+  /* Container Adjustments for Print */
+  .results-container {
+    padding: 40px; /* Increased padding for a cleaner layout */
+    margin: 20px auto; /* Centered with margin */
+    border: none; /* Remove border for print */
+    max-width: 800px; /* Ensure content fits within page */
+    background: #fff; /* White background */
+  }
+
+  /* Headings and Section Titles */
+  h1, h2 {
+    page-break-after: avoid; /* Avoid breaks after titles */
+    margin-top: 20px; /* Add margin before titles */
+    margin-bottom: 10px; /* Add margin after titles */
+  }
+
+  h1 {
+    font-size: 26px; /* Slightly smaller for print */
+  }
+
+  h2 {
+    font-size: 22px; /* Adjusted for print */
+  }
+
+  /* Content Layout */
+  .analysis-text, .recommended-actions-list {
+    margin-bottom: 20px; /* Consistent spacing between sections */
+    text-align: justify; /* Justify text for a professional look */
+  }
+
+  /* Question and Answer Cards */
+  .question-answer-card {
+    padding: 20px; /* Padding inside each card */
+    margin-bottom: 20px; /* Space between cards */
+    border: 1px solid #ddd; /* Light border around cards */
+    background: #f8f8f8; /* Light background for contrast */
+    page-break-inside: avoid; /* Prevent page breaks inside cards */
+  }
+
+  .question {
+    margin-bottom: 8px; /* Space below question */
+    font-size: 18px; /* Adjust font size */
+  }
+
+  .selected-answer {
+    margin-top: 5px; /* Space above answer */
+    padding: 8px 12px; /* Padding for better spacing */
+    font-size: 14px; /* Smaller font size for print */
+    border-radius: 4px; /* Rounded corners */
+  }
+
+  /* Page Layout Adjustments */
+  hr {
+    margin: 20px auto; /* Space above and below */
+    width: 90%; /* Wider line */
+  }
+
+  /* Avoid Page Breaks for Key Elements */
+  .results-container, .question-answer-card, .analysis-text, .recommended-actions-list {
+    page-break-after: avoid; /* Avoid breaking after these elements */
+    page-break-inside: avoid; /* Avoid breaking inside these elements */
+  }
+
+  /* Specific Adjustments for Print */
+  @page {
+    margin: 30mm 20mm; /* Page margins (top/bottom, left/right) */
+  }
+
+  /* Ensure Content Fills the Page */
+  .results-container {
+    margin-top: 0; /* Remove top margin */
+    margin-bottom: 0; /* Remove bottom margin */
+    padding-top: 0; /* Remove top padding */
+    padding-bottom: 0; /* Remove bottom padding */
+  }
+}
