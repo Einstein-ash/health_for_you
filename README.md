@@ -16,7 +16,7 @@ Welcome to the Medical Center Frontend repository! This project is a part of a c
 
 To run the Medical Center Frontend locally, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/Hyemee1021/medical-center-frontend.git`
+1. Clone this repository: `git clone https://github.com/Einstein-ash/health_for_you/.git`
 2. Navigate to the project directory: `cd medical-center-frontend`
 3. Install dependencies: `npm install`
 4. Start the development server: `npm start`
