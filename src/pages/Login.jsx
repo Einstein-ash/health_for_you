@@ -141,8 +141,8 @@ const BASE_URL = "https://health-for-you-back-for-us.vercel.app"
 
 const Login = () => {
   const [formData, setFormData] = useState({
-    email: "",
-    password: "",
+    email: "choco123@gmail.com",
+    password: "Choco@123",
   });
 
   const [loading, setLoading] = useState(false);
@@ -152,7 +152,7 @@ const Login = () => {
   const { dispatch } = useContext(AuthContext);
 
   const handleInputChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
+    setFormData({ ...formData, [e.target.name ]: e.target.value });
   };
 
 
