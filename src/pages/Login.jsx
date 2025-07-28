@@ -161,7 +161,7 @@ const Login = () => {
     setLoading(true);
 
     try {
-      const res = await axios.post(`${BASE_URL}/login`, formData);
+      const res = await axios.post(`${BASE_URL}/login`, formData, );
       const result = await res.data;
       if (!res.data.isOk) {
         throw new Error(result.message);
