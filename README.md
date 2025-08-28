@@ -1,8 +1,8 @@
-# Medical Center Frontend
+#Health for you, For us - Frontend
 
 ## Introduction
 
-Welcome to the Medical Center Frontend repository! This project is a part of a comprehensive medical center management system designed to streamline various aspects of managing a medical facility. The frontend is built using React.js and communicates with the backend server to provide a user-friendly interface for managing appointments, patient records, staff information, and more.
+Welcome to the Health for you, For us - Frontend repository! This project is a part of a comprehensive medical center management system designed to streamline various aspects of managing a medical facility. The frontend is built using React.js and communicates with the backend server to provide a user-friendly interface for managing appointments, patient records, staff information, and more.
 
 ## Features
 
