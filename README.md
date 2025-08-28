@@ -14,7 +14,7 @@ Welcome to the Health for you, For us - Frontend repository! This project is a p
 
 ## Installation
 
-To run the Medical Center Frontend locally, follow these steps:
+To run theHealth for you, For us- Frontend locally, follow these steps:
 
 1. Clone this repository: `git clone https://github.com/Einstein-ash/health_for_you`
 2. Navigate to the project directory: `cd medical-center-frontend`
@@ -23,7 +23,7 @@ To run the Medical Center Frontend locally, follow these steps:
 
 ## Usage
 
-After following the installation steps, you can access the application by visiting [http://localhost:3000](http://localhost:3000) in your web browser. From there, you can explore the different features of the Medical Center Frontend.
+After following the installation steps, you can access the application by visiting [http://localhost:3000](http://localhost:3000) in your web browser. From there, you can explore the different features of the Health for you, For us-  Frontend.
 
 ## Contributing
 
@@ -35,6 +35,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 4. Push to the branch: `git push origin feature-name`.
 5. Submit a pull request.
 
-## License
 
-This project is licensed under the MIT License.
